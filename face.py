@@ -7,6 +7,7 @@ import dlib
 detector = dlib.get_frontal_face_detector()
 
 # Load the predictor
+# Download from https://github.com/severin-lemaignan/gazr/raw/master/share/shape_predictor_68_face_landmarks.dat
 predictor = dlib.shape_predictor("predictors/shape_predictor_68_face_landmarks.dat")
 
 # Read the image
